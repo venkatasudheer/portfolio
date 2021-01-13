@@ -2342,7 +2342,7 @@ hr {
 .hero-wrap .hero-bg {
   z-index: 0;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
