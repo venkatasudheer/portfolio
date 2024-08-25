@@ -3296,3 +3296,15 @@ input:-internal-autofill-selected {
   left: -40px;
   border-radius: 4px 0px 0px 4px;
 }
+
+.icon-container {
+  font-family: 'Font Awesome 5 Free'; /* Ensure this matches the icon font you're using */
+  font-weight: 900; /* Font Awesome uses different font weights for different styles */
+  font-size: 48px; /* Adjust size as needed */
+  color: #e23237; /* Angular red color */
+  position: relative;
+}
+
+.icon-container::before {
+  content: '\f420'; /* Unicode character code for the icon */
+}
